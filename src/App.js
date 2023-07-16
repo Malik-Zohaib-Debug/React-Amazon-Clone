@@ -5,6 +5,7 @@ import Login from './Login';
 import Checkout from './Checkout';
 import { authu } from './firebase';
 import { StateContext } from './StateProvider';
+import Payment from './Payment';
 
 function App(){
   const { setUser } = useContext(StateContext);
@@ -34,6 +35,7 @@ function App(){
           </Route>
           <Route path='/login' element={<Login />}>
           </Route>
+          <Route path='/payment' element={<Payment />}/>
           <Route path='*' element={<NotFound /> }>
             Page Not Found
           </Route>
