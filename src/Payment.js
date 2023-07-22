@@ -6,7 +6,7 @@ import CheckoutProduct from './CheckoutProduct';
 import { Link, useNavigate } from 'react-router-dom';
 import CurrencyFormat from 'react-currency-format';
 import { useStripe, useElements, CardElement } from '@stripe/react-stripe-js';
-import axios from 'axios';
+import axios from './axios';
 
 export default function Payment() {
     const {basket, user} = useContext(StateContext);
@@ -33,7 +33,10 @@ export default function Payment() {
             setClientSecret(response.data.clientSecret);
         }
         getClientSecret();
-    }, [])
+    }, []);
+
+    console.log('The secret is ->', clientSecret)
+    console.log(user)
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -54,7 +57,7 @@ export default function Payment() {
     }
 
     const handleChange = e => {
-        e.preventDefault();
+        // e.preventDefault();
         setDisabled(e.empty);
         setError(e.error ? e.message : " ");
     }

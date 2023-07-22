@@ -1,0 +1,2134 @@
+[debug] [2023-07-22T10:38:22.717Z] ----------------------------------------------------------------------
+[debug] [2023-07-22T10:38:22.719Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Malik Zohaib Zahid\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2023-07-22T10:38:22.720Z] CLI Version:   12.4.4
+[debug] [2023-07-22T10:38:22.720Z] Platform:      win32
+[debug] [2023-07-22T10:38:22.721Z] Node Version:  v18.17.0
+[debug] [2023-07-22T10:38:22.722Z] Time:          Sat Jul 22 2023 15:38:22 GMT+0500 (Pakistan Standard Time)
+[debug] [2023-07-22T10:38:22.722Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-07-22T10:38:22.889Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-07-22T10:38:22.889Z] > authorizing via signed-in user (malikzohaibzahid78@gmail.com)
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[debug] [2023-07-22T10:38:22.919Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-07-22T10:38:22.920Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-07-22T10:38:22.920Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2023-07-22T10:38:22.936Z] [hub] writing locator at C:\Users\MALIKZ~1\AppData\Local\Temp\hub-clone-fc822.json
+[debug] [2023-07-22T10:38:22.994Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-07-22T10:38:22.995Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-07-22T10:38:23.004Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, storage\u001b[22m"}}
+[debug] [2023-07-22T10:38:23.022Z] defaultcredentials: writing to file C:\Users\Malik Zohaib Zahid\AppData\Roaming\firebase\malikzohaibzahid78_gmail_com_application_default_credentials.json
+[debug] [2023-07-22T10:38:23.027Z] Setting GAC to C:\Users\Malik Zohaib Zahid\AppData\Roaming\firebase\malikzohaibzahid78_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Malik Zohaib Zahid\\AppData\\Roaming\\firebase\\malikzohaibzahid78_gmail_com_application_default_credentials.json"}}
+[debug] [2023-07-22T10:38:23.030Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-fc822/adminSdkConfig [none]
+[debug] [2023-07-22T10:38:23.835Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-fc822/adminSdkConfig 200
+[debug] [2023-07-22T10:38:23.835Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-fc822/adminSdkConfig {"projectId":"clone-fc822","storageBucket":"clone-fc822.appspot.com"}
+[debug] [2023-07-22T10:38:23.875Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-fc822/sites 
+[debug] [2023-07-22T10:38:25.710Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-fc822/sites 200
+[debug] [2023-07-22T10:38:25.711Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-fc822/sites {"sites":[{"name":"projects/clone-fc822/sites/clone-fc822","defaultUrl":"https://clone-fc822.web.app","appId":"1:1016325024547:web:95fcc3c0f15e01ab8aba96","type":"DEFAULT_SITE"}]}
+[debug] [2023-07-22T10:38:25.711Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-fc822/webApps/1:1016325024547:web:95fcc3c0f15e01ab8aba96/config [none]
+[debug] [2023-07-22T10:38:27.202Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-fc822/webApps/1:1016325024547:web:95fcc3c0f15e01ab8aba96/config 200
+[debug] [2023-07-22T10:38:27.202Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-fc822/webApps/1:1016325024547:web:95fcc3c0f15e01ab8aba96/config {"projectId":"clone-fc822","appId":"1:1016325024547:web:95fcc3c0f15e01ab8aba96","storageBucket":"clone-fc822.appspot.com","apiKey":"AIzaSyBevzVlbodP1u3FHfeAcJODURfIGfW5XE0","authDomain":"clone-fc822.firebaseapp.com","messagingSenderId":"1016325024547"}
+[debug] [2023-07-22T10:38:27.223Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-fc822 [none]
+[debug] [2023-07-22T10:38:27.764Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-fc822 200
+[debug] [2023-07-22T10:38:27.764Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-fc822 {"projectId":"clone-fc822","projectNumber":"1016325024547","displayName":"amazon-clone","name":"projects/clone-fc822","resources":{"hostingSite":"clone-fc822"},"state":"ACTIVE","etag":"1_8ea2c320-cf5d-4ce3-965c-ac5f7a69b162"}
+[info] i  hosting[clone-fc822]: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting[clone-fc822]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[debug] [2023-07-22T10:38:27.797Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2023-07-22T10:38:27.797Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2023-07-22T10:38:27.797Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\Malik Zohaib Zahid\\.cache\\firebase\\emulators\\ui-v1.11.7\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\Malik Zohaib Zahid\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.7\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2023-07-22T10:38:27.996Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2023-07-22T10:38:27.996Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[info] i  functions: Watching "C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\" for Cloud Functions..."}}
+[debug] [2023-07-22T10:38:28.099Z] Validating nodejs source
+[debug] [2023-07-22T10:38:30.389Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-07-22T10:38:30.389Z] Building nodejs source
+[debug] [2023-07-22T10:38:30.389Z] Failed to find version of module node: reached end of search path C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-07-22T10:38:30.395Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-07-22T10:38:30.417Z] Found firebase-functions binary at 'C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8878
+
+[debug] [2023-07-22T10:38:31.334Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] shutdown requested via /__/quitquitquit
+
+[info] +  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[info] +  functions[us-central1-api]: http function initialized (http://127.0.0.1:5001/clone-fc822/us-central1/api). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/clone-fc822/us-central1/api)."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Hosting   │ 127.0.0.1:5000 │ n/a                             │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2023-07-22T10:38:56.063Z] File C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-07-22T10:38:57.072Z] Validating nodejs source
+[debug] [2023-07-22T10:38:59.570Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-07-22T10:38:59.570Z] Building nodejs source
+[debug] [2023-07-22T10:38:59.570Z] Failed to find version of module node: reached end of search path C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-07-22T10:38:59.573Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-07-22T10:38:59.594Z] Found firebase-functions binary at 'C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8739
+
+[debug] [2023-07-22T10:39:00.645Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] shutdown requested via /__/quitquitquit
+
+[info] +  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[debug] [2023-07-22T10:39:00.927Z] File C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-07-22T10:39:01.938Z] Validating nodejs source
+[debug] [2023-07-22T10:39:04.742Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-07-22T10:39:04.742Z] Building nodejs source
+[debug] [2023-07-22T10:39:04.742Z] Failed to find version of module node: reached end of search path C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-07-22T10:39:04.747Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-07-22T10:39:04.769Z] Found firebase-functions binary at 'C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-07-22T10:39:04.780Z] File C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\index.js changed, reloading triggers"}}
+[info] Serving at port 8131
+
+[debug] [2023-07-22T10:39:05.834Z] Validating nodejs source
+[debug] [2023-07-22T10:39:08.559Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-07-22T10:39:08.559Z] Building nodejs source
+[debug] [2023-07-22T10:39:08.559Z] Failed to find version of module node: reached end of search path C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-07-22T10:39:08.564Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-07-22T10:39:08.588Z] Found firebase-functions binary at 'C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-07-22T10:39:08.599Z] File C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-07-22T10:39:08.601Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2023-07-22T10:39:08.750Z] File C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\index.js changed, reloading triggers"}}
+[info] shutdown requested via /__/quitquitquit
+
+[info] +  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[info] Serving at port 8557
+
+[debug] [2023-07-22T10:39:09.708Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] shutdown requested via /__/quitquitquit
+
+[info] +  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[debug] [2023-07-22T10:39:09.753Z] Validating nodejs source
+[debug] [2023-07-22T10:39:11.983Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-07-22T10:39:11.984Z] Building nodejs source
+[debug] [2023-07-22T10:39:11.984Z] Failed to find version of module node: reached end of search path C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-07-22T10:39:11.990Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-07-22T10:39:12.008Z] Found firebase-functions binary at 'C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-07-22T10:39:12.014Z] File C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\index.js changed, reloading triggers"}}
+[info] Serving at port 8307
+
+[debug] [2023-07-22T10:39:13.044Z] Validating nodejs source
+[debug] [2023-07-22T10:39:17.717Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-07-22T10:39:17.718Z] Building nodejs source
+[debug] [2023-07-22T10:39:17.718Z] Failed to find version of module node: reached end of search path C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-07-22T10:39:17.722Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2023-07-22T10:39:17.725Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-07-22T10:39:17.751Z] Found firebase-functions binary at 'C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\.bin\firebase-functions'
+[info] shutdown requested via /__/quitquitquit
+
+[info] +  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[info] Serving at port 8073
+
+[debug] [2023-07-22T10:39:19.073Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] shutdown requested via /__/quitquitquit
+
+[info] +  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[debug] [2023-07-22T10:39:19.523Z] File C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-07-22T10:39:20.528Z] Validating nodejs source
+[debug] [2023-07-22T10:39:23.445Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-07-22T10:39:23.445Z] Building nodejs source
+[debug] [2023-07-22T10:39:23.445Z] Failed to find version of module node: reached end of search path C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-07-22T10:39:23.450Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-07-22T10:39:23.470Z] Found firebase-functions binary at 'C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8431
+
+[debug] [2023-07-22T10:39:24.710Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] shutdown requested via /__/quitquitquit
+
+[info] +  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[debug] [2023-07-22T10:39:34.288Z] [work-queue] {"queuedWork":["/clone-fc822/us-central1/api-2023-07-22T10:39:34.287Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-07-22T10:39:34.288Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-fc822/us-central1/api-2023-07-22T10:39:34.287Z"],"workRunningCount":1}
+[debug] [2023-07-22T10:39:34.289Z] Accepted request GET /clone-fc822/us-central1/api --> us-central1-api
+[debug] [2023-07-22T10:39:34.302Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2023-07-22T10:39:34.771Z] [functions] Got req.url=/clone-fc822/us-central1/api, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-fc822/us-central1/api, mapping to path=/"}}
+[debug] [2023-07-22T10:39:34.816Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2023-07-22T10:39:34.820Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2023-07-22T10:39:37.604Z] [runtime-status] [260] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.10.1","resolution":"C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [260] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.10.1\",\"resolution\":\"C:\\\\Drive D\\\\reactJS\\\\amazon-clone\\\\React-Amazon-Clone\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2023-07-22T10:39:37.606Z] [runtime-status] [260] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.4.1","resolution":"C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [260] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.4.1\",\"resolution\":\"C:\\\\Drive D\\\\reactJS\\\\amazon-clone\\\\React-Amazon-Clone\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-07-22T10:39:37.606Z] [runtime-status] [260] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [260] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2023-07-22T10:39:37.608Z] [runtime-status] [260] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.4.1","resolution":"C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [260] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.4.1\",\"resolution\":\"C:\\\\Drive D\\\\reactJS\\\\amazon-clone\\\\React-Amazon-Clone\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-07-22T10:39:38.199Z] [runtime-status] [260] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [260] Checked functions.config() {\"config\":{}}"}}
+[debug] [2023-07-22T10:39:38.200Z] [runtime-status] [260] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"4.4.1","resolution":"C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [260] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"4.4.1\",\"resolution\":\"C:\\\\Drive D\\\\reactJS\\\\amazon-clone\\\\React-Amazon-Clone\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}}"}}
+[debug] [2023-07-22T10:39:38.201Z] [runtime-status] [260] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.4.1","resolution":"C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [260] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.4.1\",\"resolution\":\"C:\\\\Drive D\\\\reactJS\\\\amazon-clone\\\\React-Amazon-Clone\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-07-22T10:39:38.203Z] [runtime-status] [260] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.10.1","resolution":"C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [260] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.10.1\",\"resolution\":\"C:\\\\Drive D\\\\reactJS\\\\amazon-clone\\\\React-Amazon-Clone\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2023-07-22T10:39:38.210Z] [runtime-status] [260] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.4.1","resolution":"C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [260] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.4.1\",\"resolution\":\"C:\\\\Drive D\\\\reactJS\\\\amazon-clone\\\\React-Amazon-Clone\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-07-22T10:39:38.210Z] [runtime-status] [260] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"11.10.1","resolution":"C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [260] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"11.10.1\",\"resolution\":\"C:\\\\Drive D\\\\reactJS\\\\amazon-clone\\\\React-Amazon-Clone\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2023-07-22T10:39:38.743Z] [runtime-status] [260] Functions runtime initialized. {"cwd":"C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions","node_version":"18.17.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [260] Functions runtime initialized. {\"cwd\":\"C:\\\\Drive D\\\\reactJS\\\\amazon-clone\\\\React-Amazon-Clone\\\\functions\",\"node_version\":\"18.17.0\"}"}}
+[debug] [2023-07-22T10:39:38.744Z] [runtime-status] [260] Listening to port: \\?\pipe\fire_emu_b0475ea05c685f21 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [260] Listening to port: \\\\?\\pipe\\fire_emu_b0475ea05c685f21"}}
+[debug] [2023-07-22T10:39:38.833Z] [worker-us-central1-api-11b8c79b-b7a3-4287-9b65-9689c2d07773]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-11b8c79b-b7a3-4287-9b65-9689c2d07773]: IDLE"}}
+[debug] [2023-07-22T10:39:38.834Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2023-07-22T10:39:38.836Z] [worker-us-central1-api-11b8c79b-b7a3-4287-9b65-9689c2d07773]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-11b8c79b-b7a3-4287-9b65-9689c2d07773]: BUSY"}}
+[debug] [2023-07-22T10:39:38.854Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 18.8959ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 18.8959ms"}}
+[debug] [2023-07-22T10:39:38.856Z] [worker-us-central1-api-11b8c79b-b7a3-4287-9b65-9689c2d07773]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-11b8c79b-b7a3-4287-9b65-9689c2d07773]: IDLE"}}
+[debug] [2023-07-22T10:39:38.856Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2023-07-22T10:39:38.856Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2023-07-22T10:39:38.857Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-07-22T10:39:39.656Z] Functions emulator received unknown request at path /favicon.ico
+[debug] [2023-07-22T10:41:19.031Z] File C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-07-22T10:41:20.042Z] Validating nodejs source
+[debug] [2023-07-22T10:41:23.745Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-07-22T10:41:23.745Z] Building nodejs source
+[debug] [2023-07-22T10:41:23.746Z] Failed to find version of module node: reached end of search path C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-07-22T10:41:23.748Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-07-22T10:41:23.768Z] Found firebase-functions binary at 'C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8528
+
+[debug] [2023-07-22T10:41:25.018Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] shutdown requested via /__/quitquitquit
+
+[info] +  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[debug] [2023-07-22T10:41:25.061Z] [worker-pool] Shutting down IDLE worker (us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Shutting down IDLE worker (us-central1-api)"}}
+[debug] [2023-07-22T10:41:25.061Z] [worker-us-central1-api-11b8c79b-b7a3-4287-9b65-9689c2d07773]: FINISHING {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-11b8c79b-b7a3-4287-9b65-9689c2d07773]: FINISHING"}}
+[debug] [2023-07-22T10:41:25.090Z] [worker-us-central1-api-11b8c79b-b7a3-4287-9b65-9689c2d07773]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-11b8c79b-b7a3-4287-9b65-9689c2d07773]: exited"}}
+[debug] [2023-07-22T10:41:25.091Z] [worker-us-central1-api-11b8c79b-b7a3-4287-9b65-9689c2d07773]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-11b8c79b-b7a3-4287-9b65-9689c2d07773]: FINISHED"}}
+[debug] [2023-07-22T10:41:28.610Z] File C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-07-22T10:41:29.618Z] Validating nodejs source
+[debug] [2023-07-22T10:41:32.007Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-07-22T10:41:32.008Z] Building nodejs source
+[debug] [2023-07-22T10:41:32.008Z] Failed to find version of module node: reached end of search path C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-07-22T10:41:32.010Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-07-22T10:41:32.032Z] Found firebase-functions binary at 'C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-07-22T10:41:32.049Z] File C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\index.js changed, reloading triggers"}}
+[info] Serving at port 8714
+
+[debug] [2023-07-22T10:41:33.056Z] Validating nodejs source
+[debug] [2023-07-22T10:41:36.553Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-07-22T10:41:36.553Z] Building nodejs source
+[debug] [2023-07-22T10:41:36.553Z] Failed to find version of module node: reached end of search path C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-07-22T10:41:36.556Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-07-22T10:41:36.576Z] Found firebase-functions binary at 'C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-07-22T10:41:36.587Z] Got response code 400; body Failed to generate manifest from function source: Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath './lib/project-management/app-metadata' is not defined by "exports" in C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\firebase-admin\package.json
+[debug] [2023-07-22T10:41:36.592Z] File C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\index.js changed, reloading triggers"}}
+[info] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[info] Serving at port 8961
+
+[debug] [2023-07-22T10:41:37.618Z] Validating nodejs source
+[debug] [2023-07-22T10:41:41.544Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-07-22T10:41:41.544Z] Building nodejs source
+[debug] [2023-07-22T10:41:41.545Z] Failed to find version of module node: reached end of search path C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-07-22T10:41:41.551Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-07-22T10:41:41.568Z] Found firebase-functions binary at 'C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-07-22T10:41:41.583Z] Got response code 400; body Failed to generate manifest from function source: Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath './lib/project-management/app-metadata' is not defined by "exports" in C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\firebase-admin\package.json
+[info] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[debug] [2023-07-22T10:41:41.898Z] File C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\index.js changed, reloading triggers"}}
+[info] Serving at port 8996
+
+[debug] [2023-07-22T10:41:42.695Z] Got response code 400; body Failed to generate manifest from function source: Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath './lib/project-management/app-metadata' is not defined by "exports" in C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\firebase-admin\package.json
+[info] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[debug] [2023-07-22T10:41:42.913Z] Validating nodejs source
+[debug] [2023-07-22T10:41:45.323Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-07-22T10:41:45.323Z] Building nodejs source
+[debug] [2023-07-22T10:41:45.323Z] Failed to find version of module node: reached end of search path C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-07-22T10:41:45.325Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-07-22T10:41:45.347Z] Found firebase-functions binary at 'C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8206
+
+[debug] [2023-07-22T10:41:46.456Z] Got response code 400; body Failed to generate manifest from function source: Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath './lib/project-management/app-metadata' is not defined by "exports" in C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\firebase-admin\package.json
+[info] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[debug] [2023-07-22T10:42:15.995Z] File C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-07-22T10:42:17.008Z] Validating nodejs source
+[debug] [2023-07-22T10:42:20.190Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-07-22T10:42:20.191Z] Building nodejs source
+[debug] [2023-07-22T10:42:20.191Z] Failed to find version of module node: reached end of search path C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-07-22T10:42:20.193Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-07-22T10:42:20.214Z] Found firebase-functions binary at 'C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8410
+
+[debug] [2023-07-22T10:42:21.201Z] Got response code 400; body Failed to generate manifest from function source: Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath './lib/project-management/app-metadata' is not defined by "exports" in C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\firebase-admin\package.json
+[info] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[debug] [2023-07-22T10:42:21.541Z] File C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-07-22T10:42:22.546Z] Validating nodejs source
+[debug] [2023-07-22T10:42:25.074Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-07-22T10:42:25.075Z] Building nodejs source
+[debug] [2023-07-22T10:42:25.075Z] Failed to find version of module node: reached end of search path C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-07-22T10:42:25.077Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-07-22T10:42:25.095Z] Found firebase-functions binary at 'C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-07-22T10:42:25.106Z] File C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\index.js changed, reloading triggers"}}
+[info] Serving at port 8593
+
+[debug] [2023-07-22T10:42:25.928Z] Got response code 400; body Failed to generate manifest from function source: Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath './lib/project-management/app-metadata' is not defined by "exports" in C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\firebase-admin\package.json
+[info] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[debug] [2023-07-22T10:42:26.122Z] Validating nodejs source
+[debug] [2023-07-22T10:42:33.133Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-07-22T10:42:33.133Z] Building nodejs source
+[debug] [2023-07-22T10:42:33.133Z] Failed to find version of module node: reached end of search path C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-07-22T10:42:33.137Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-07-22T10:42:33.156Z] Found firebase-functions binary at 'C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8750
+
+[debug] [2023-07-22T10:42:34.039Z] Got response code 400; body Failed to generate manifest from function source: Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath './lib/project-management/app-metadata' is not defined by "exports" in C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\firebase-admin\package.json
+[info] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[debug] [2023-07-22T10:42:55.102Z] File C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-07-22T10:42:56.103Z] Validating nodejs source
+[debug] [2023-07-22T10:42:58.962Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-07-22T10:42:58.962Z] Building nodejs source
+[debug] [2023-07-22T10:42:58.962Z] Failed to find version of module node: reached end of search path C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-07-22T10:42:58.964Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-07-22T10:42:58.980Z] Found firebase-functions binary at 'C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-07-22T10:42:58.990Z] File C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\index.js changed, reloading triggers"}}
+[info] Serving at port 8899
+
+[debug] [2023-07-22T10:42:59.593Z] Got response code 400; body Failed to generate manifest from function source: SyntaxError: Unexpected token '}'
+[info] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[debug] [2023-07-22T10:43:00.001Z] Validating nodejs source
+[debug] [2023-07-22T10:43:02.266Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-07-22T10:43:02.266Z] Building nodejs source
+[debug] [2023-07-22T10:43:02.266Z] Failed to find version of module node: reached end of search path C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-07-22T10:43:02.268Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-07-22T10:43:02.288Z] Found firebase-functions binary at 'C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-07-22T10:43:02.298Z] File C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\index.js changed, reloading triggers"}}
+[info] Serving at port 8038
+
+[debug] [2023-07-22T10:43:03.219Z] Got response code 400; body Failed to generate manifest from function source: Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath './lib/project-management/app-metadata' is not defined by "exports" in C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\firebase-admin\package.json
+[info] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[debug] [2023-07-22T10:43:03.309Z] Validating nodejs source
+[debug] [2023-07-22T10:43:07.233Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-07-22T10:43:07.233Z] Building nodejs source
+[debug] [2023-07-22T10:43:07.233Z] Failed to find version of module node: reached end of search path C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-07-22T10:43:07.235Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-07-22T10:43:07.254Z] Found firebase-functions binary at 'C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-07-22T10:43:07.267Z] File C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\index.js changed, reloading triggers"}}
+[info] Serving at port 8096
+
+[debug] [2023-07-22T10:43:08.272Z] Got response code 400; body Failed to generate manifest from function source: Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath './lib/project-management/app-metadata' is not defined by "exports" in C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\firebase-admin\package.json
+[debug] [2023-07-22T10:43:08.274Z] Validating nodejs source
+[debug] [2023-07-22T10:43:10.789Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-07-22T10:43:10.790Z] Building nodejs source
+[debug] [2023-07-22T10:43:10.790Z] Failed to find version of module node: reached end of search path C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-07-22T10:43:10.794Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-07-22T10:43:10.813Z] Found firebase-functions binary at 'C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-07-22T10:43:10.833Z] File C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\index.js changed, reloading triggers"}}
+[info] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[info] Serving at port 8332
+
+[debug] [2023-07-22T10:43:11.726Z] Got response code 400; body Failed to generate manifest from function source: Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath './lib/project-management/app-metadata' is not defined by "exports" in C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\firebase-admin\package.json
+[info] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[debug] [2023-07-22T10:43:11.847Z] Validating nodejs source
+[debug] [2023-07-22T10:43:14.554Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-07-22T10:43:14.554Z] Building nodejs source
+[debug] [2023-07-22T10:43:14.554Z] Failed to find version of module node: reached end of search path C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-07-22T10:43:14.557Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-07-22T10:43:14.578Z] Found firebase-functions binary at 'C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8478
+
+[debug] [2023-07-22T10:43:15.478Z] Got response code 400; body Failed to generate manifest from function source: Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath './lib/project-management/app-metadata' is not defined by "exports" in C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\firebase-admin\package.json
+[info] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[debug] [2023-07-22T10:43:20.050Z] File C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-07-22T10:43:21.052Z] Validating nodejs source
+[debug] [2023-07-22T10:43:23.835Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-07-22T10:43:23.835Z] Building nodejs source
+[debug] [2023-07-22T10:43:23.835Z] Failed to find version of module node: reached end of search path C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-07-22T10:43:23.837Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-07-22T10:43:23.856Z] Found firebase-functions binary at 'C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8356
+
+[debug] [2023-07-22T10:43:25.244Z] Got response code 400; body Failed to generate manifest from function source: Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath './lib/project-management/app-metadata' is not defined by "exports" in C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\firebase-admin\package.json
+[info] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[debug] [2023-07-22T10:43:29.431Z] File C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-07-22T10:43:30.440Z] Validating nodejs source
+[debug] [2023-07-22T10:43:33.729Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-07-22T10:43:33.729Z] Building nodejs source
+[debug] [2023-07-22T10:43:33.730Z] Failed to find version of module node: reached end of search path C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-07-22T10:43:33.732Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-07-22T10:43:33.752Z] Found firebase-functions binary at 'C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8844
+
+[debug] [2023-07-22T10:43:34.857Z] Got response code 400; body Failed to generate manifest from function source: Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath './lib/project-management/app-metadata' is not defined by "exports" in C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\firebase-admin\package.json
+[info] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[debug] [2023-07-22T10:43:36.054Z] File C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-07-22T10:43:37.063Z] Validating nodejs source
+[debug] [2023-07-22T10:43:39.544Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-07-22T10:43:39.544Z] Building nodejs source
+[debug] [2023-07-22T10:43:39.544Z] Failed to find version of module node: reached end of search path C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-07-22T10:43:39.546Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-07-22T10:43:39.565Z] Found firebase-functions binary at 'C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8515
+
+[debug] [2023-07-22T10:43:40.611Z] Got response code 400; body Failed to generate manifest from function source: Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath './lib/project-management/app-metadata' is not defined by "exports" in C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\firebase-admin\package.json
+[info] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[debug] [2023-07-22T10:43:45.989Z] File C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-07-22T10:43:47.004Z] Validating nodejs source
+[debug] [2023-07-22T10:43:50.159Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-07-22T10:43:50.159Z] Building nodejs source
+[debug] [2023-07-22T10:43:50.159Z] Failed to find version of module node: reached end of search path C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-07-22T10:43:50.162Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-07-22T10:43:50.184Z] Found firebase-functions binary at 'C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-07-22T10:43:50.194Z] File C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-07-22T10:43:50.440Z] File C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\index.js changed, reloading triggers"}}
+[info] Serving at port 8937
+
+[debug] [2023-07-22T10:43:51.289Z] Got response code 400; body Failed to generate manifest from function source: Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath './lib/project-management/app-metadata' is not defined by "exports" in C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\firebase-admin\package.json
+[info] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[debug] [2023-07-22T10:43:51.448Z] Validating nodejs source
+[debug] [2023-07-22T10:43:54.632Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-07-22T10:43:54.633Z] Building nodejs source
+[debug] [2023-07-22T10:43:54.633Z] Failed to find version of module node: reached end of search path C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-07-22T10:43:54.642Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-07-22T10:43:54.659Z] Found firebase-functions binary at 'C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-07-22T10:43:54.671Z] File C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\index.js changed, reloading triggers"}}
+[info] Serving at port 8051
+
+[debug] [2023-07-22T10:43:55.687Z] Validating nodejs source
+[debug] [2023-07-22T10:43:58.187Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-07-22T10:43:58.188Z] Building nodejs source
+[debug] [2023-07-22T10:43:58.188Z] Failed to find version of module node: reached end of search path C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-07-22T10:43:58.190Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-07-22T10:43:58.209Z] Found firebase-functions binary at 'C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-07-22T10:43:58.218Z] Got response code 400; body Failed to generate manifest from function source: Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath './lib/project-management/app-metadata' is not defined by "exports" in C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\firebase-admin\package.json
+[debug] [2023-07-22T10:43:58.222Z] File C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\index.js changed, reloading triggers"}}
+[info] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[info] Serving at port 8164
+
+[debug] [2023-07-22T10:43:59.225Z] Validating nodejs source
+[debug] [2023-07-22T10:44:02.124Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-07-22T10:44:02.124Z] Building nodejs source
+[debug] [2023-07-22T10:44:02.125Z] Failed to find version of module node: reached end of search path C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-07-22T10:44:02.128Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-07-22T10:44:02.147Z] Found firebase-functions binary at 'C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-07-22T10:44:02.157Z] Got response code 400; body Failed to generate manifest from function source: Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath './lib/project-management/app-metadata' is not defined by "exports" in C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\firebase-admin\package.json
+[info] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[info] Serving at port 8706
+
+[debug] [2023-07-22T10:44:03.141Z] Got response code 400; body Failed to generate manifest from function source: Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath './lib/project-management/app-metadata' is not defined by "exports" in C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\firebase-admin\package.json
+[info] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[debug] [2023-07-22T10:44:08.399Z] File C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-07-22T10:44:09.403Z] Validating nodejs source
+[debug] [2023-07-22T10:44:11.832Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-07-22T10:44:11.833Z] Building nodejs source
+[debug] [2023-07-22T10:44:11.833Z] Failed to find version of module node: reached end of search path C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-07-22T10:44:11.837Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-07-22T10:44:11.852Z] Found firebase-functions binary at 'C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8445
+
+[debug] [2023-07-22T10:44:12.440Z] Got response code 400; body Failed to generate manifest from function source: SyntaxError: Missing initializer in const declaration
+[info] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[debug] [2023-07-22T10:44:20.272Z] File C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-07-22T10:44:21.287Z] Validating nodejs source
+[debug] [2023-07-22T10:44:23.938Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-07-22T10:44:23.939Z] Building nodejs source
+[debug] [2023-07-22T10:44:23.939Z] Failed to find version of module node: reached end of search path C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-07-22T10:44:23.942Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-07-22T10:44:23.961Z] Found firebase-functions binary at 'C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-07-22T10:44:24.076Z] File C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\index.js changed, reloading triggers"}}
+[info] Serving at port 8806
+
+[debug] [2023-07-22T10:44:25.043Z] Got response code 400; body Failed to generate manifest from function source: Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath './lib/project-management/app-metadata' is not defined by "exports" in C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\firebase-admin\package.json
+[info] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[debug] [2023-07-22T10:44:25.081Z] Validating nodejs source
+[debug] [2023-07-22T10:44:27.451Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-07-22T10:44:27.452Z] Building nodejs source
+[debug] [2023-07-22T10:44:27.452Z] Failed to find version of module node: reached end of search path C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-07-22T10:44:27.454Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-07-22T10:44:27.472Z] Found firebase-functions binary at 'C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-07-22T10:44:27.483Z] File C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\index.js changed, reloading triggers"}}
+[info] Serving at port 8881
+
+[debug] [2023-07-22T10:44:28.319Z] Got response code 400; body Failed to generate manifest from function source: Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath './lib/project-management/app-metadata' is not defined by "exports" in C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\firebase-admin\package.json
+[info] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[debug] [2023-07-22T10:44:28.491Z] Validating nodejs source
+[debug] [2023-07-22T10:44:31.210Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-07-22T10:44:31.210Z] Building nodejs source
+[debug] [2023-07-22T10:44:31.210Z] Failed to find version of module node: reached end of search path C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-07-22T10:44:31.212Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-07-22T10:44:31.235Z] Found firebase-functions binary at 'C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-07-22T10:44:31.245Z] File C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\index.js changed, reloading triggers"}}
+[info] Serving at port 8745
+
+[debug] [2023-07-22T10:44:32.278Z] Validating nodejs source
+[debug] [2023-07-22T10:44:35.031Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-07-22T10:44:35.032Z] Building nodejs source
+[debug] [2023-07-22T10:44:35.032Z] Failed to find version of module node: reached end of search path C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-07-22T10:44:35.035Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-07-22T10:44:35.056Z] Found firebase-functions binary at 'C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8429
+
+[debug] [2023-07-22T10:44:36.169Z] Got response code 400; body Failed to generate manifest from function source: Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath './lib/project-management/app-metadata' is not defined by "exports" in C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\firebase-admin\package.json
+[info] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[debug] [2023-07-22T10:44:36.821Z] Got response code 400; body Failed to generate manifest from function source: Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath './lib/project-management/app-metadata' is not defined by "exports" in C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\firebase-admin\package.json
+[info] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[debug] [2023-07-22T10:44:39.342Z] File C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-07-22T10:44:40.352Z] Validating nodejs source
+[debug] [2023-07-22T10:44:43.503Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-07-22T10:44:43.504Z] Building nodejs source
+[debug] [2023-07-22T10:44:43.504Z] Failed to find version of module node: reached end of search path C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-07-22T10:44:43.508Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-07-22T10:44:43.527Z] Found firebase-functions binary at 'C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-07-22T10:44:43.539Z] File C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\index.js changed, reloading triggers"}}
+[info] Serving at port 8131
+
+[debug] [2023-07-22T10:44:44.550Z] Validating nodejs source
+[debug] [2023-07-22T10:44:47.135Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-07-22T10:44:47.136Z] Building nodejs source
+[debug] [2023-07-22T10:44:47.136Z] Failed to find version of module node: reached end of search path C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-07-22T10:44:47.139Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-07-22T10:44:47.159Z] Found firebase-functions binary at 'C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-07-22T10:44:47.179Z] Got response code 400; body Failed to generate manifest from function source: Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath './lib/project-management/app-metadata' is not defined by "exports" in C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\firebase-admin\package.json
+[info] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[info] Serving at port 8895
+
+[debug] [2023-07-22T10:44:48.163Z] Got response code 400; body Failed to generate manifest from function source: Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath './lib/project-management/app-metadata' is not defined by "exports" in C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\firebase-admin\package.json
+[info] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[debug] [2023-07-22T10:45:04.224Z] File C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-07-22T10:45:05.226Z] Validating nodejs source
+[debug] [2023-07-22T10:45:08.420Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-07-22T10:45:08.421Z] Building nodejs source
+[debug] [2023-07-22T10:45:08.421Z] Failed to find version of module node: reached end of search path C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-07-22T10:45:08.423Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-07-22T10:45:08.441Z] Found firebase-functions binary at 'C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8301
+
+[debug] [2023-07-22T10:45:09.376Z] Got response code 400; body Failed to generate manifest from function source: Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath './lib/project-management/app-metadata' is not defined by "exports" in C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\firebase-admin\package.json
+[info] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[debug] [2023-07-22T10:45:22.575Z] File C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-07-22T10:45:23.583Z] Validating nodejs source
+[debug] [2023-07-22T10:45:25.816Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-07-22T10:45:25.816Z] Building nodejs source
+[debug] [2023-07-22T10:45:25.816Z] Failed to find version of module node: reached end of search path C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-07-22T10:45:25.819Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-07-22T10:45:25.838Z] Found firebase-functions binary at 'C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-07-22T10:45:25.849Z] File C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\index.js changed, reloading triggers"}}
+[info] Serving at port 8778
+
+[debug] [2023-07-22T10:45:26.825Z] Got response code 400; body Failed to generate manifest from function source: Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath './lib/project-management/app-metadata' is not defined by "exports" in C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\firebase-admin\package.json
+[info] shutdown requested via /__/quitquitquit
+
+[debug] [2023-07-22T10:45:26.850Z] Validating nodejs source
+[debug] [2023-07-22T10:45:29.205Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-07-22T10:45:29.205Z] Building nodejs source
+[debug] [2023-07-22T10:45:29.205Z] Failed to find version of module node: reached end of search path C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-07-22T10:45:29.207Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-07-22T10:45:29.225Z] Found firebase-functions binary at 'C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\.bin\firebase-functions'
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[info] Serving at port 8126
+
+[debug] [2023-07-22T10:45:30.279Z] File C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-07-22T10:45:30.383Z] Got response code 400; body Failed to generate manifest from function source: Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath './lib/project-management/app-metadata' is not defined by "exports" in C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\firebase-admin\package.json
+[info] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[debug] [2023-07-22T10:45:31.282Z] Validating nodejs source
+[debug] [2023-07-22T10:45:33.990Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-07-22T10:45:33.990Z] Building nodejs source
+[debug] [2023-07-22T10:45:33.990Z] Failed to find version of module node: reached end of search path C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-07-22T10:45:33.993Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-07-22T10:45:34.012Z] Found firebase-functions binary at 'C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8850
+
+[debug] [2023-07-22T10:45:35.439Z] Got response code 400; body Failed to generate manifest from function source: Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath './lib/project-management/app-metadata' is not defined by "exports" in C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\firebase-admin\package.json
+[info] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[debug] [2023-07-22T10:45:44.496Z] File C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-07-22T10:45:45.505Z] Validating nodejs source
+[debug] [2023-07-22T10:45:49.221Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-07-22T10:45:49.221Z] Building nodejs source
+[debug] [2023-07-22T10:45:49.221Z] Failed to find version of module node: reached end of search path C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-07-22T10:45:49.224Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-07-22T10:45:49.238Z] Found firebase-functions binary at 'C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8428
+
+[debug] [2023-07-22T10:45:50.719Z] Got response code 400; body Failed to generate manifest from function source: Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath './lib/project-management/app-metadata' is not defined by "exports" in C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\firebase-admin\package.json
+[info] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[debug] [2023-07-22T10:45:53.077Z] File C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-07-22T10:45:54.079Z] Validating nodejs source
+[debug] [2023-07-22T10:45:56.524Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-07-22T10:45:56.524Z] Building nodejs source
+[debug] [2023-07-22T10:45:56.525Z] Failed to find version of module node: reached end of search path C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-07-22T10:45:56.527Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-07-22T10:45:56.546Z] Found firebase-functions binary at 'C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8987
+
+[debug] [2023-07-22T10:45:57.719Z] File C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-07-22T10:45:57.998Z] Got response code 400; body Failed to generate manifest from function source: Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath './lib/project-management/app-metadata' is not defined by "exports" in C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\firebase-admin\package.json
+[info] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[debug] [2023-07-22T10:45:58.727Z] Validating nodejs source
+[debug] [2023-07-22T10:46:02.944Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-07-22T10:46:02.944Z] Building nodejs source
+[debug] [2023-07-22T10:46:02.945Z] Failed to find version of module node: reached end of search path C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-07-22T10:46:02.948Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-07-22T10:46:02.966Z] Found firebase-functions binary at 'C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-07-22T10:46:02.977Z] File C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\index.js changed, reloading triggers"}}
+[info] Serving at port 8170
+
+[debug] [2023-07-22T10:46:03.980Z] Validating nodejs source
+[debug] [2023-07-22T10:46:07.018Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-07-22T10:46:07.019Z] Building nodejs source
+[debug] [2023-07-22T10:46:07.019Z] Failed to find version of module node: reached end of search path C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-07-22T10:46:07.030Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-07-22T10:46:07.049Z] Found firebase-functions binary at 'C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-07-22T10:46:07.057Z] Got response code 400; body Failed to generate manifest from function source: Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath './lib/project-management/app-metadata' is not defined by "exports" in C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\firebase-admin\package.json
+[debug] [2023-07-22T10:46:07.061Z] File C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\index.js changed, reloading triggers"}}
+[info] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[debug] [2023-07-22T10:46:07.257Z] File C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\index.js changed, reloading triggers"}}
+[info] Serving at port 8653
+
+[debug] [2023-07-22T10:46:08.034Z] Got response code 400; body Failed to generate manifest from function source: Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath './lib/project-management/app-metadata' is not defined by "exports" in C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\firebase-admin\package.json
+[info] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[debug] [2023-07-22T10:46:08.266Z] Validating nodejs source
+[debug] [2023-07-22T10:46:10.798Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-07-22T10:46:10.798Z] Building nodejs source
+[debug] [2023-07-22T10:46:10.798Z] Failed to find version of module node: reached end of search path C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-07-22T10:46:10.800Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-07-22T10:46:10.817Z] Found firebase-functions binary at 'C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-07-22T10:46:10.828Z] File C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\index.js changed, reloading triggers"}}
+[info] Serving at port 8156
+
+[debug] [2023-07-22T10:46:11.659Z] Got response code 400; body Failed to generate manifest from function source: Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath './lib/project-management/app-metadata' is not defined by "exports" in C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\firebase-admin\package.json
+[info] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[debug] [2023-07-22T10:46:11.840Z] Validating nodejs source
+[debug] [2023-07-22T10:46:14.398Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-07-22T10:46:14.399Z] Building nodejs source
+[debug] [2023-07-22T10:46:14.399Z] Failed to find version of module node: reached end of search path C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-07-22T10:46:14.402Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-07-22T10:46:14.421Z] Found firebase-functions binary at 'C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8191
+
+[debug] [2023-07-22T10:46:15.392Z] Got response code 400; body Failed to generate manifest from function source: Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath './lib/project-management/app-metadata' is not defined by "exports" in C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\firebase-admin\package.json
+[info] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[debug] [2023-07-22T11:36:49.376Z] File C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-07-22T11:36:50.445Z] Validating nodejs source
+[debug] [2023-07-22T11:36:54.530Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-07-22T11:36:54.532Z] Building nodejs source
+[debug] [2023-07-22T11:36:54.532Z] Failed to find version of module node: reached end of search path C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-07-22T11:36:54.550Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-07-22T11:36:54.583Z] Found firebase-functions binary at 'C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8699
+
+[debug] [2023-07-22T11:36:56.209Z] Got response code 400; body Failed to generate manifest from function source: Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath './lib/project-management/app-metadata' is not defined by "exports" in C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\firebase-admin\package.json
+[info] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[debug] [2023-07-22T11:39:16.432Z] File C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-07-22T11:39:17.436Z] Validating nodejs source
+[debug] [2023-07-22T11:39:20.705Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-07-22T11:39:20.705Z] Building nodejs source
+[debug] [2023-07-22T11:39:20.705Z] Failed to find version of module node: reached end of search path C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-07-22T11:39:20.708Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-07-22T11:39:20.730Z] Found firebase-functions binary at 'C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8042
+
+[debug] [2023-07-22T11:39:22.236Z] Got response code 400; body Failed to generate manifest from function source: Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath './lib/project-management/app-metadata' is not defined by "exports" in C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\firebase-admin\package.json
+[info] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[debug] [2023-07-22T11:41:23.009Z] ----------------------------------------------------------------------
+[debug] [2023-07-22T11:41:23.012Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Malik Zohaib Zahid\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2023-07-22T11:41:23.012Z] CLI Version:   12.4.4
+[debug] [2023-07-22T11:41:23.013Z] Platform:      win32
+[debug] [2023-07-22T11:41:23.013Z] Node Version:  v18.17.0
+[debug] [2023-07-22T11:41:23.024Z] Time:          Sat Jul 22 2023 16:41:23 GMT+0500 (Pakistan Standard Time)
+[debug] [2023-07-22T11:41:23.024Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-07-22T11:41:23.216Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-07-22T11:41:23.217Z] > authorizing via signed-in user (malikzohaibzahid78@gmail.com)
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[debug] [2023-07-22T11:41:23.244Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-07-22T11:41:23.245Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-07-22T11:41:23.245Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2023-07-22T11:41:23.262Z] [hub] writing locator at C:\Users\MALIKZ~1\AppData\Local\Temp\hub-clone-fc822.json
+[debug] [2023-07-22T11:41:23.296Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-07-22T11:41:23.296Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-07-22T11:41:23.297Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, storage\u001b[22m"}}
+[debug] [2023-07-22T11:41:23.304Z] defaultcredentials: writing to file C:\Users\Malik Zohaib Zahid\AppData\Roaming\firebase\malikzohaibzahid78_gmail_com_application_default_credentials.json
+[debug] [2023-07-22T11:41:23.312Z] Setting GAC to C:\Users\Malik Zohaib Zahid\AppData\Roaming\firebase\malikzohaibzahid78_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Malik Zohaib Zahid\\AppData\\Roaming\\firebase\\malikzohaibzahid78_gmail_com_application_default_credentials.json"}}
+[debug] [2023-07-22T11:41:23.316Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-fc822/adminSdkConfig [none]
+[debug] [2023-07-22T11:41:23.848Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-fc822/adminSdkConfig 200
+[debug] [2023-07-22T11:41:23.849Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-fc822/adminSdkConfig {"projectId":"clone-fc822","storageBucket":"clone-fc822.appspot.com"}
+[debug] [2023-07-22T11:41:23.884Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-fc822/sites 
+[debug] [2023-07-22T11:41:25.547Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-fc822/sites 200
+[debug] [2023-07-22T11:41:25.547Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-fc822/sites {"sites":[{"name":"projects/clone-fc822/sites/clone-fc822","defaultUrl":"https://clone-fc822.web.app","appId":"1:1016325024547:web:95fcc3c0f15e01ab8aba96","type":"DEFAULT_SITE"}]}
+[debug] [2023-07-22T11:41:25.547Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-fc822/webApps/1:1016325024547:web:95fcc3c0f15e01ab8aba96/config [none]
+[debug] [2023-07-22T11:41:26.640Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-fc822/webApps/1:1016325024547:web:95fcc3c0f15e01ab8aba96/config 200
+[debug] [2023-07-22T11:41:26.641Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-fc822/webApps/1:1016325024547:web:95fcc3c0f15e01ab8aba96/config {"projectId":"clone-fc822","appId":"1:1016325024547:web:95fcc3c0f15e01ab8aba96","storageBucket":"clone-fc822.appspot.com","apiKey":"AIzaSyBevzVlbodP1u3FHfeAcJODURfIGfW5XE0","authDomain":"clone-fc822.firebaseapp.com","messagingSenderId":"1016325024547"}
+[debug] [2023-07-22T11:41:26.657Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-fc822 [none]
+[debug] [2023-07-22T11:41:27.314Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-fc822 200
+[debug] [2023-07-22T11:41:27.314Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-fc822 {"projectId":"clone-fc822","projectNumber":"1016325024547","displayName":"amazon-clone","name":"projects/clone-fc822","resources":{"hostingSite":"clone-fc822"},"state":"ACTIVE","etag":"1_8ea2c320-cf5d-4ce3-965c-ac5f7a69b162"}
+[info] i  hosting[clone-fc822]: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting[clone-fc822]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[debug] [2023-07-22T11:41:27.355Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2023-07-22T11:41:27.355Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2023-07-22T11:41:27.355Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\Malik Zohaib Zahid\\.cache\\firebase\\emulators\\ui-v1.11.7\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\Malik Zohaib Zahid\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.7\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2023-07-22T11:41:27.599Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2023-07-22T11:41:27.600Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[info] i  functions: Watching "C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Drive D\\reactJS\\amazon-clone\\React-Amazon-Clone\\functions\" for Cloud Functions..."}}
+[debug] [2023-07-22T11:41:27.668Z] Validating nodejs source
+[debug] [2023-07-22T11:41:30.141Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-07-22T11:41:30.142Z] Building nodejs source
+[debug] [2023-07-22T11:41:30.142Z] Failed to find version of module node: reached end of search path C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-07-22T11:41:30.151Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-07-22T11:41:30.173Z] Found firebase-functions binary at 'C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8286
+
+[debug] [2023-07-22T11:41:31.284Z] Got response code 400; body Failed to generate manifest from function source: Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath './lib/project-management/app-metadata' is not defined by "exports" in C:\Drive D\reactJS\amazon-clone\React-Amazon-Clone\functions\node_modules\firebase-admin\package.json
+[info] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Hosting   │ 127.0.0.1:5000 │ n/a                             │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
